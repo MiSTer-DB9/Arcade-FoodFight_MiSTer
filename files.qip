@@ -23,3 +23,5 @@ set_global_assignment -name VERILOG_FILE src/DPRAMs.v
 set_global_assignment -name QIP_FILE src/DPRAM1024_8.qip
 set_global_assignment -name QIP_FILE src/DPRAM256_4.qip
 set_global_assignment -name SYSTEMVERILOG_FILE "Arcade-FoodFight.sv"
+set_global_assignment -name VERILOG_FILE src/joydb9md.v
+set_global_assignment -name VERILOG_FILE src/joydb15.v
