@@ -283,6 +283,8 @@ hps_io #(.CONF_STR(CONF_STR)) hps_io
 	.clk_sys(clk_sys),
 	.HPS_BUS(HPS_BUS),
 
+        .joy_raw(joydb_1[5:0] | joydb_2[5:0]),
+
 	.buttons(buttons),
 	.status(status),
 	.status_menumask({direct_video}),
@@ -299,8 +301,6 @@ hps_io #(.CONF_STR(CONF_STR)) hps_io
 	.joystick_1(joystk2_USB),
 	.joystick_l_analog_0(joystick_analog_0),
 	.joystick_l_analog_1(joystick_analog_1)	
-
-	.joy_raw(joydb_1[5:0] | joydb_2[5:0]),
 );
 wire m_down2   = joystk2[2];
 wire m_left2   = joystk2[1];
