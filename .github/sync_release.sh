@@ -7,7 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=retry.sh
 source "${SCRIPT_DIR}/retry.sh"
 
-UPSTREAM_REPO="https://github.com/MiSTer-devel/Arcade-FoodFight_Mister.git"
+UPSTREAM_REPO="https://github.com/MiSTer-devel/Arcade-FoodFight_MiSTer.git"
 CORE_NAME=(Arcade-FoodFight)
 MAIN_BRANCH="master"
 UPSTREAM_BRANCH="master"
